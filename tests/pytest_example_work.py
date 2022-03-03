@@ -1,6 +1,6 @@
 import numpy as np
 import pytest
-from as_numpy import get_data_as_numpy_array
+from src.features.as_numpy import get_data_as_numpy_array
 
 def test_on_clean_file():
   expected = np.array([[2081.0, 314942.0],
